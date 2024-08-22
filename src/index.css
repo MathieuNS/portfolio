@@ -120,6 +120,7 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
+    top: 0;
 }
 
 .profile-photo{
@@ -163,6 +164,10 @@ span{
     font-weight: 600;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+}
+#cv{
+    background-color: var(--main-color);
+    color: black;
 }
 .btn:hover{
     transform: scale(1.05);
@@ -249,10 +254,7 @@ span{
     text-align: center;
     margin: 5rem 0;
 }
-.education{
-    padding: 100px;
-    background:  var(--second-bg-color);
-}
+
 .education h2{
     margin-bottom: 5rem;
 }
@@ -464,4 +466,113 @@ span{
     background-color: var(--main-color);
     color: black;
     box-shadow: 0 0 25px var(--main-color);
+}
+
+#email_sent{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(12, 209, 88);
+}
+
+@media(max-width: 1285px){
+    html{
+        font-size: 55%
+    }
+
+    .projects-container{
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+}
+@media(max-width:991px){
+    header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left: 0;
+    }
+    .projects{
+        padding-bottom: 7rem;
+    }
+    .contact form{
+        flex-direction: column;
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+@media(max-width:895px){
+    #menu-icon{
+        display: block
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar.active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
+    .about{
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+    }
+    .about-content h2{
+        font-size: 2rem;
+    }
+    .about-content h1{
+        font-size: 6rem;
+        margin-top: -12rem;
+    }
+    .about-content p{
+        max-width: 600px;
+        margin: 1rem auto;
+    }
+    .about-img img{
+        width: 56vw;
+        margin-top: 6rem;
+    }
+    .projects h3{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        line-height: 3rem;
+    }
+    .projects-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project-box{
+        height: 500px;
+    }
+    .btn{
+        text-align: center;
+    }
 }

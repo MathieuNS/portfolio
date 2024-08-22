@@ -1,4 +1,5 @@
 import React from "react";
+import PDF from '../mathieu_nunes_sanches_cv.pdf';
 
 function openPDF() {
     window.open("../mathieu_nunes_sanches_cv.pdf")
@@ -12,7 +13,7 @@ function About () {
             <p>7 years of experience in FX, IRD, and commodities trading and sales. Skilled in developing pricing tools, managing client portfolios, and conducting market analysis. Proficient in Python with a proven track record of mentoring team members and executing complex transactions.</p>
             
             <div class="btn-group">
-                <button onClick={openPDF} class="btn">Download CV</button>
+                <a href={PDF} without rel="noopener noreferrer" target="_blank" class="btn" id="cv">Download CV</a>
                 <a href="#contact" class="btn">Contact Me</a>
             </div>
         </div>
