@@ -2,7 +2,7 @@ const projects = [
   {
       id: 1,
       title: "Commodity Swap Pricer",
-      content: "Done with Python, the price use the Reuters' API to calculate live prices, Mark to Market... for multiple commodities (metal, energy, agricultur, elecricity)",
+      content: "Done with Python, the price use the Reuters' API to calculate live prices, Mark to Market... for multiple commodities (metal, energy, agriculture, elecricity)",
     },
     {
       id: 2,
@@ -12,7 +12,7 @@ const projects = [
     {
       id: 3,
       title: "Autofill social media contest bot",
-      content: "A Python Bot scrap online contest websites with selenium and connect each contest on social media (X, instagram, facebook) to share, like and follow to participate.",
+      content: "A Python Bot scrap online contest websites with selenium and connect to each contest on social media (X, instagram, facebook) to share, like and follow to participate.",
     },
     {
       id: 4,
