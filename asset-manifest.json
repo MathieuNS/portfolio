@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a2f5ba4a.css",
+    "main.js": "/portfolio/static/js/main.61de21b0.js",
+    "static/js/453.cbbcd9d1.chunk.js": "/portfolio/static/js/453.cbbcd9d1.chunk.js",
+    "static/media/mathieu_nunes_sanches_cv.pdf": "/portfolio/static/media/mathieu_nunes_sanches_cv.ebe13703054ecd8e9ad8.pdf",
+    "static/media/profile_photo.jpg": "/portfolio/static/media/profile_photo.b1ee3652c9aa55e2f4f9.jpg",
+    "static/media/profile-face.jpg": "/portfolio/static/media/profile-face.5a565a2b49ee967ae35a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.a2f5ba4a.css.map": "/portfolio/static/css/main.a2f5ba4a.css.map",
+    "main.61de21b0.js.map": "/portfolio/static/js/main.61de21b0.js.map",
+    "453.cbbcd9d1.chunk.js.map": "/portfolio/static/js/453.cbbcd9d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2f5ba4a.css",
+    "static/js/main.61de21b0.js"
+  ]
+}
